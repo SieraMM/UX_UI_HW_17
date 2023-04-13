@@ -1,6 +1,11 @@
-body{
+body {
     background-color: #F5F4EF;
+    color: #003566;
+    font-family: trade-gothic-next, sans-serif;
+    font-style: normal;
+    font-weight: 300;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -36,40 +41,158 @@ a {
 
 
 .display {
-    color: #003566;
     font-family: paralucent, sans-serif;
     font-style: normal;
     font-weight: 700;
 }
-.intro{
-    display:flex;
+
+.intro {
+    display: flex;
     justify-content: space-evenly;
     background-color: #F5F4EF;
-  }
-  
-  .center{
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.center {
     width: 45%;
-    margin-right: 100px;
-  }
-  .center h1{
+    margin-right: 25px;
+}
+
+.center h1 {
     text-align: center;
-  }
-  .center p{
+}
+
+.center p {
     padding-left: 50px;
-  }
-  .social_media{
+}
+
+.social_media {
     padding-left: 150px;
     margin-right: 5%px;
-  }
-  .social_media a {
+}
+
+.social_media a {
     margin-right: 20%;
-  }
-  .toolbox{
+}
+
+.toolbox {
     border: 2px solid red;
     height: 200px;
     width: 300px;
-    
-  }
+
+}
+
+.RW {
+    margin-left: 5%;
+}
+
+.work_flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space- space-evenly;
+
+}
+
+.work_flow img {
+    margin-right: 100px;
+}
+
+.flow_text {
+    margin-top: 50px;
+}
+
+.primary_flow {
+    display: flex;
+
+}
+
+.secondary_flow {
+    display: flex;
+
+
+}
+
+.secondary_flow img {
+    max-height: 350px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.tertiary_flow {
+    display: flex;
+
+}
+
+.flow_text,
+.flow_img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    background-color: #002140;
+    color: #F5F4EF;
+}
+
+.upperline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    padding-top: 20px;
+    height: 75px;
+    border-bottom: 2px solid #F5F4EF;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a {
+    padding-right: 15%;
+}
+
+.lower_line {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.about_me,
+.connection,
+.banner {
+    display: flex;
+}
+
+.about_me {
+    margin-bottom: 20px;
+}
+
+.connection {
+    margin-bottom: -15px;
+}
+
+.banner {
+    align-items: center;
+}
+
+.banner p {
+    margin-right: 5%;
+}
+
+.banner a {
+    margin-right: 5%;
+}
+
 /* .github .linkedin img{
     width: 40px;
      height: 40px;
