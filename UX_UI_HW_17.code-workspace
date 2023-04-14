@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../ux-bootcamp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ux-bootcamp"
+	}
+}
